@@ -1,0 +1,49 @@
+body {
+  background-image: radial-gradient(#fff62e 6%, transparent 10%),
+        radial-gradient(#04006f 6%, transparent 10%);
+  background-size:40px 40px;
+  background-color:	#ff0000;
+  background-position: 0 0, 60px 60px;
+  animation-name: backgroundmovement;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+ }
+
+      /*creates movement of the background*/
+  @keyframes backgroundmovement {
+     0% {
+   background-position: 0px 0px, 60px 60px;
+        }
+    100% {
+   background-position: 60px 60px, 120px 120px;
+  }
+   }
+
+.box{
+  font-size: 40px;
+  /*margin-top: 700px;
+  margin-bottom: 40px;*/
+  width:300px;
+  text-align: center;
+  font-weight: 500;
+  color: #00ffec;
+  background-color:#fff62e;
+  border-radius:5px;
+  border:6px solid red;
+  text-shadow: 0.2rem 0.2rem 0 	#ff79a2;
+}
+
+.box:hover {
+  box-shadow: 0 0 11px #04006f;
+}
+
+.container {
+  background-image: url('https://cdn.weasyl.com/~rooibos/submissions/1163632/144f9ecef2d2039b654f584ae79491c651ee4f57c6b3164eb0cf29f1e41ede0a/rooibos-guts-background.png');
+  margins: auto;
+  padding: auto;
+}
+
+a:link{
+  text-decoration:none;
+}
