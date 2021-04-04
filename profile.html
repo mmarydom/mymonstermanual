@@ -6,11 +6,17 @@
 
 	<link rel="stylesheet" media="screen" href="css/profile-style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="preload/_assets/js/examples.js"></script>
+	<script src="preload/_assets/libs/easeljs-NEXT.min.js"></script>
+	<script src="preload/_assets/libs/tweenjs-NEXT.min.js"></script>
+	<script type="text/javascript" src="preload/lib/preloadjs-NEXT.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script src="js/sketch.js"></script>
 
 </head>
 
 
-<body>
+<body onload="init()">
 <div class="page-wrapper">
 
 	<section class="intro">
@@ -25,10 +31,7 @@
 		</div>
 
 		<div class="gallery">
-			<h3>The Road to Enlightenment</h3>
-			<p>Littering a dark and dreary road lay the past relics of browser-specific tags, incompatibles, broken support, and abandoned browsers.</p>
-			<p>We must clear the mind of the past. Web enlightenment has been achieved thanks to the tireless efforts of folk like the, and the major browser creators.</p>
-			<p>The CSS Zen Garden invites you to relax and meditate on the important lessons of the masters. Begin to see with clarity. Learn to use the time-honored techniques in new and invigorating fashion. Become one with the web.</p>
+			<div><canvas id="myCanvas" width="960" height="400"></canvas></div>
 		</div>
 	</section>
 

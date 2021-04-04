@@ -1,0 +1,188 @@
+body {
+  background-color: #FFFFFF;
+  background-size: 4px 4px;
+  color: #FFFFFF;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  min-height: 100vh;
+  box-shadow: inset 0 0 150px rgba(77, 73, 62, 0.4),
+    inset 0 0 150px rgba(77, 73, 62, 0.3);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  letter-spacing: 0.1rem;
+}
+
+img {
+  position: relative;
+}
+
+footer {
+  position: relative;
+  top: 80px;
+  background: #ffbf00;
+  clear: both;
+  color: #fff;
+  padding: 1em 5%;
+  width: 50%;
+}
+
+.page-wrapper {
+  z-index: 2;
+}
+
+.box {
+  background: #ff0000;
+  position: relative;
+  top: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 105%;
+  width: 70%;
+}
+
+/*midnight meryl*/
+section.character1 {
+  background-color: #04006f;
+  position: relative;
+  left: -50px;
+  top: -60px;
+  color: white;
+  width: 60%;
+  padding: 200px 10px;
+}
+
+/*Hell Hound*/
+.character2 {
+  background: rgba(255, 255, 255, 0.9);
+  position: relative;
+  left: 500px;
+  margin-right: -10%;
+  margin-top: -200px;
+  padding: 50px;
+}
+
+/*Mrs. Mittens*/
+.character3 {
+  background: rgba(73, 255, 0, 0.9);
+  color: #fff;
+  padding: 5%;
+  float: left;
+  position: relative;
+  left: -100px;
+  width: 100%;
+}
+
+/*Dear of Devotion*/
+.character4 {
+  background: #49ff00;
+  position: relative;
+  right: 550px;
+  margin-top: 50%;
+  padding: 5%;
+  float: right;
+  margin-right: -170%;
+  width: 70%;
+}
+
+/*Murder Mascot*/
+.character5 {
+  background: #00ffec;
+  position: relative;
+  left: -70px;
+  margin-top: 30%;
+  padding: 5%;
+  float: left;
+  width: 100%;
+}
+
+/*-----------------background-------------------------*/
+#parallax-bg .image1 {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color:#ff59a4;
+  height: 800px;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#parallax-bg .image2 {
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 2rem,
+    #141d26 1rem,
+    #141d26 6rem
+  );
+  background-size: 200% 200%;
+  animation: barberpole 10s reverse linear infinite; /* Avoid width reflow */
+}
+
+@keyframes barberpole {
+  100% {
+    background-position: 70% 70%;
+  }
+}
+
+#parallax-bg .image3 {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-image: url("https://images.squarespace-cdn.com/content/v1/58e9b976e58c6214d4b74edc/1511489381695-P7SH2824PJVTUGTWOZC6/ke17ZwdGBToddI8pDm48kNMIMLR5HyT8T-Jl3SGhJah7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0lymOeRAJHHH9XqfSiOb7cTGbLAieTgWkYuEkwDB4voIismrhiD4NjJHt9jYGvYsHg/k-bomb_logo_pattern-5.gif?format=2500w");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#parallax-bg .image4 {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-image: url("https://pbs.twimg.com/media/D75XJe2UcAEWX-5?format=png&name=900x900");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#parallax-bg .image5 {
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 2rem,
+    #141d26 1rem,
+    #141d26 6rem
+  );
+  background-size: 200% 200%;
+  animation: barberpole 10s linear infinite; /* Avoid width reflow */
+}
+
+@keyframes barberpole {
+  100% {
+    background-position: 70% 70%;
+  }
+}
+
+#parallax-bg .image6 {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-image: url("https://cdn.weasyl.com/~rooibos/submissions/1163632/144f9ecef2d2039b654f584ae79491c651ee4f57c6b3164eb0cf29f1e41ede0a/rooibos-guts-background.png");
+  height: 800px;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
