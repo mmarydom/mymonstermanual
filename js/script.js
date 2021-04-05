@@ -1,5 +1,12 @@
 let system;
 
+let img;
+var x = 0;
+
+function preload() {
+  img = loadImage('images/graphic/star1.png');
+}
+
 function setup() {
 system = new ParticleSystem(createVector(width / 2, 5));
 }

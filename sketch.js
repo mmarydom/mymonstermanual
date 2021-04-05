@@ -2,17 +2,14 @@ let img;
 var x = 0;
 
 function preload() {
-  img = loadImage('images/star1.png');
-}
-function setup() {
-
+  img = loadImage('images/graphic/star1.png');
 }
 
 function draw() {
-  var canvas = createCanvas(720, 400);
+  var canvas = createCanvas(1000, 1000);
   canvas.parent('sketch-holder');
 	x+= 0.05;
-  translate (width/2, height/2);
+  translate (100, 100);
   rotate(x);
-  image(img, 0, 0);
+    image(img, 0, 0, 50, 50);
 }

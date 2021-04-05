@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Bungee+Inline&family=Eater&family=Frijole&family=Nosifer&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Bungee+Inline&family=Eater&family=Frijole&display=swap');
 
 body {
   background-color: #FFFFFF;
@@ -25,19 +25,32 @@ font-family: 'Nosifer', cursive;
 }
 
 h2{
-
+font-family: 'Barriecito', cursive;
+       -webkit-text-stroke: 1px #ff59a4;
+    width: 500px;
+    color: #00ffec;
+      font-size: 35px;
+     line-height: 50px;
 }
 
+.palm {
+    animation: sway1 8s infinite;
+    transform-origin: 50% 100% 0;
+}
+@keyframes sway1 {
+    0%, 100%{ transform: rotate(-1deg);}
+    50%{ transform: rotate(1deg); }
+}
+
+
 canvas {
-  display: inline;
-    z-index: 2;
-  position: relative;
-  top: -1000px;
+  display: block;
+  z-index: 2;
 }
 
 .summary {
   position: relative;
-  top: -1700px;
+  top: -1900px;
   left: 150px;
   max-width: 500px;
   margin: 80px auto 0;
@@ -56,7 +69,7 @@ canvas {
   color: 	#141d26;
   float: right;
    text-align: center;
-  font-size:10px;
+  font-size:15px;
   margin: 0;
    display:flex;
   background-color: white;
@@ -124,7 +137,7 @@ footer {
 .box {
   background: #ff0000;
   position: relative;
-  top: -2200px;
+  top: -2500px;
   display: block;
   margin-left: auto;
   margin-right: auto;
