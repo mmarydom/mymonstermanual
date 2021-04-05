@@ -17,82 +17,78 @@
           <section class="box">
             <div class="page-wrapper">
               <section class="character1">
-                <img
-                  src="https://cdn.glitch.com/421bc48d-1fc5-4722-a48c-c9ea95b5bfdb%2Flogo.png?v=1617349978096"
-                  width="350"
-                  height="350"
-                />
-
-                <div class="character2">
-                  <img
-                    src="https://cdn.glitch.com/421bc48d-1fc5-4722-a48c-c9ea95b5bfdb%2Flogo.png?v=1617349978096"
+                <a href="mrsmittens-profile.html"
+                  ><img
+                    id="mrs-mittens"
+                    src="images/mrs.mitten.png"
+                    onmouseover="onHover1();"
+                    onmouseout="offHover1();"
+                    border="0"
                     width="350"
                     height="350"
-                  />
+                /></a>
+
+                <div class="character2">
+                  <a href="deardevotion-profile.html"
+                    ><img
+                      id="dear-of-devotion"
+                      src="images/deardevotion.png"
+                      onmouseover="onHover2();"
+                      onmouseout="offHover2();"
+                      border="0"
+                      width="350"
+                      height="350"
+                  /></a>
                 </div>
 
                 <div class="character3">
                   <center>
-                    <img
-                      src="https://cdn.glitch.com/421bc48d-1fc5-4722-a48c-c9ea95b5bfdb%2Flogo.png?v=1617349978096"
-                      width="350"
-                      height="350"
-                    />
+                    <a href="midnightmeryl-profile.html"
+                      ><img
+                        id="midnight-meryl"
+                        src="images/midnightmeryl.png"
+                        onmouseover="onHover3();"
+                        onmouseout="offHover3();"
+                        border="0"
+                        width="350"
+                        height="350"
+                    /></a>
                   </center>
                 </div>
 
                 <div class="character4">
                   <center>
-                    <img
-                      src="https://cdn.glitch.com/421bc48d-1fc5-4722-a48c-c9ea95b5bfdb%2Flogo.png?v=1617349978096"
-                      width="350"
-                      height="350"
-                    />
+                    <a href="hellhound-profile.html"
+                      ><img
+                        id="hell-hound"
+                        src="images/hellhound.png"
+                        onmouseover="onHover4();"
+                        onmouseout="offHover4();"
+                        border="0"
+                        width="350"
+                        height="350"
+                    /></a>
                   </center>
                 </div>
 
                 <div class="character5">
                   <center>
-                    <img
-                      src="https://cdn.glitch.com/421bc48d-1fc5-4722-a48c-c9ea95b5bfdb%2Flogo.png?v=1617349978096"
-                      width="350"
-                      height="350"
-                    />
+                    <a href="murdermascot-profile.html"
+                      ><img
+                        id="murder-mascot"
+                        src="images/murdermascot.png"
+                        onmouseover="onHover5();"
+                        onmouseout="offHover5();"
+                        border="0"
+                        width="350"
+                        height="350"
+                    /></a>
                   </center>
 
                   <!-- ------------------------  links  ------------------------------------- -->
 
                   <footer>
-                    <a
-                      href="http://validator.w3.org/check/referer"
-                      title="Check the validity of this site&#8217;s HTML"
-                      class="zen-validate-html"
-                      >HTML</a
-                    >
-                    <a
-                      href="http://jigsaw.w3.org/css-validator/check/referer"
-                      title="Check the validity of this site&#8217;s CSS"
-                      class="zen-validate-css"
-                      >CSS</a
-                    >
-                    <a
-                      href="http://creativecommons.org/licenses/by-nc-sa/3.0/"
-                      title="View the Creative Commons license of this site: Attribution-NonCommercial-ShareAlike."
-                      class="zen-license"
-                      >CC</a
-                    >
-                    <a
-                      href="http://mezzoblue.com/zengarden/faq/#aaa"
-                      title="Read about the accessibility of this site"
-                      class="zen-accessibility"
-                      >A11y</a
-                    >
-                    <a
-                      href="https://github.com/mezzoblue/csszengarden.com"
-                      title="Fork this site on Github"
-                      class="zen-github"
-                      >GH</a
-                    >
+                  <p>Website made by Mary Dominguez</p>
                   </footer>
                 </div>
               </section>
@@ -107,4 +103,59 @@
       </section>
     </div>
   </body>
+  <script>
+    //character 1
+    function onHover1() {
+      var image = document.getElementById("mrs-mittens");
+      image.src = "images/mrs.mitten-hover.png";
+    }
+
+    function offHover1() {
+      var image = document.getElementById("mrs-mittens");
+      image.src = "images/mrs.mitten.png";
+    }
+    //character 2
+    function onHover2() {
+      var image = document.getElementById("dear-of-devotion");
+      image.src = "images/deardevotion-hover.png";
+    }
+
+    function offHover2() {
+      var image = document.getElementById("dear-of-devotion");
+      image.src = "images/deardevotion.png";
+    }
+
+    //character 3
+    function onHover3() {
+      var image = document.getElementById("midnight-meryl");
+      image.src = "images/midnightmeryl-hover.png";
+    }
+
+    function offHover3() {
+      var image = document.getElementById("midnight-meryl");
+      image.src = "images/midnightmeryl.png";
+    }
+
+    //character 4
+    function onHover4() {
+      var image = document.getElementById("hell-hound");
+      image.src = "images/hellhound-hover.png";
+    }
+
+    function offHover4() {
+      var image = document.getElementById("hell-hound");
+      image.src = "images/hellhound.png";
+    }
+
+    //character 5
+    function onHover5() {
+      var image = document.getElementById("murder-mascot");
+      image.src = "images/murdermascot-hover.png";
+    }
+
+    function offHover5() {
+      var image = document.getElementById("murder-mascot");
+      image.src = "images/murdermascot.png";
+    }
+  </script>
 </html>

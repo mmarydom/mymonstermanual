@@ -43,7 +43,7 @@ footer {
   width: 70%;
 }
 
-/*midnight meryl*/
+/*Mrs. Mittens*/
 section.character1 {
   background-color: #04006f;
   position: relative;
@@ -54,7 +54,7 @@ section.character1 {
   padding: 200px 10px;
 }
 
-/*Hell Hound*/
+/*Dear of Devotion*/
 .character2 {
   background: rgba(255, 255, 255, 0.9);
   position: relative;
@@ -64,7 +64,7 @@ section.character1 {
   padding: 50px;
 }
 
-/*Mrs. Mittens*/
+/*midnight meryl*/
 .character3 {
   background: rgba(73, 255, 0, 0.9);
   color: #fff;
@@ -75,7 +75,7 @@ section.character1 {
   width: 100%;
 }
 
-/*Dear of Devotion*/
+/*Hell Hound*/
 .character4 {
   background: #49ff00;
   position: relative;
@@ -116,12 +116,13 @@ section.character1 {
   width: 100%;
   background-size: cover;
   background-attachment: fixed;
+  background-color: #ffbf00;
   background-image: repeating-linear-gradient(
     -45deg,
     transparent,
     transparent 2rem,
-    #141d26 1rem,
-    #141d26 6rem
+    #00ffec 1rem,
+    #00ffec 6rem
   );
   background-size: 200% 200%;
   animation: barberpole 10s reverse linear infinite; /* Avoid width reflow */
@@ -159,13 +160,14 @@ section.character1 {
   height: 400px;
   width: 100%;
   background-size: cover;
+  background-color:white;
   background-attachment: fixed;
   background-image: repeating-linear-gradient(
     -45deg,
     transparent,
     transparent 2rem,
-    #141d26 1rem,
-    #141d26 6rem
+    #ff59a4 1rem,
+    #ff59a4 6rem
   );
   background-size: 200% 200%;
   animation: barberpole 10s linear infinite; /* Avoid width reflow */

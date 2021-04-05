@@ -41,10 +41,8 @@ function init() {
   stage.addChild(loaderBar);
 
   manifest = [
-    {src: "image0.jpg", id: "image0"},
-    {src: "image1.jpg", id: "image1"},
-    {src: "image2.jpg", id: "image2"},
-    {src: "image3.jpg", id: "image3"}
+    {src: "mittens.png", id: "image0"},
+    {src: "kid-drawing5.png", id: "image1"}
   ];
 
   preload = new createjs.LoadQueue(true, "test/");
@@ -55,7 +53,7 @@ function init() {
   preload.on("progress", handleProgress);
   preload.on("complete", handleComplete);
   preload.on("fileload", handleFileLoad);
-  preload.loadManifest(manifest, true, "preload/_assets/art/");
+  preload.loadManifest(manifest, true, "images/");
 
   createjs.Ticker.framerate = 30;
 }

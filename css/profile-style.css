@@ -17,8 +17,10 @@ section.intro div.quote {
   color: #fff;
   padding: 15% 0;
 }
+
+/*image gallery*/
 section.intro div.gallery {
-  background: rgba(255, 255, 255);
+  background: #49ff00;
   color: #333;
   margin-left: -30%;
   padding: 5% 5% 5% 30%;
@@ -45,5 +47,3 @@ footer {
   padding: 1em 5%;
   width: 50%;
 }
-
-  
