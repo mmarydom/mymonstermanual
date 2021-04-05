@@ -5,9 +5,12 @@ function preload() {
   img = loadImage('images/graphic/star1.png');
 }
 
-function draw() {
+function setup(){
   var canvas = createCanvas(1000, 1000);
   canvas.parent('sketch-holder');
+}
+
+function draw() {
 	x+= 0.05;
   translate (100, 100);
   rotate(x);

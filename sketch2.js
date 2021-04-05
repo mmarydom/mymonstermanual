@@ -9,11 +9,11 @@ function preload() {
 
 function setup() {
 system = new ParticleSystem(createVector(width / 2, 5));
+var canvas = createCanvas(720, 400);
+canvas.parent('sketch-holder2');
 }
 
 function draw() {
-  var canvas = createCanvas(720, 400);
-  canvas.parent('sketch-holder2');
   system.addParticle();
   system.run();
 }
