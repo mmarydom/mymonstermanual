@@ -7,6 +7,9 @@
 
     <title>My Monster Manual</title>
 
+    <script src="lib/p5.js"></script>
+    <script src="lib/p5.sound.min.js"></script>
+
     <link rel="stylesheet" href="css/home-style.css" />
     <script src="js/script.js" defer></script>
   </head>
@@ -14,9 +17,116 @@
     <div id="parallax-bg">
       <section>
         <div class="image1">
+
+          <img
+            src="images/graphic/header.png"
+            style = "width:700px;
+            height: 700px;
+            position:relative;
+              z-index: 2;
+            left: -150px;
+            top: -80px;"
+        />
+
+        <img
+          src="images/graphic/back.png"
+          style = "width:970px;
+          height: 700px;
+          position:relative;
+          z-index:1;
+          left: 280px;
+          top: -830px;"
+          />
+
+      <img
+        src="images/graphic/girl.png"
+        style = "width: 400px;
+        height: 450px;
+        position:relative;
+        z-index:2;
+        left: 850px;
+        top: -1000px;"
+       />
+
+       <img
+         src="images/graphic/eye.png"
+         style = "width: 200px;
+         height: 200px;
+         position:relative;
+         z-index:2;
+         left: -80px;
+         top: -1200px;"
+        />
+
+        <div class="summary">
+      <p>Learning about monsters has never been easier! With the My Monster Manual, you can learn all about the strange creatures in your area ♥</p>
+     </div>
+            <div id="sketch-holder"></div>
+     <img
+       src="images/graphic/lightning.png"
+       style = "width: 200px;
+       height: 200px;
+       position:relative;
+       z-index:2;
+       left: 500px;
+       top: -1300px;"
+      />
+
+      <img
+        src="images/graphic/manga.png"
+        style = "width: 350px;
+        height: 250px;
+        position:relative;
+        z-index:2;
+        left: 20px;
+        top: -850px;"
+       />
+
+       <img
+         src="images/graphic/zombie.png"
+         style = "width: 300px;
+         height: 290px;
+         position:relative;
+         z-index:2;
+         left: -30px;
+         top: -670px;"
+        />
+
+       <img
+         src="images/graphic/wing.png"
+         style = "width: 350px;
+         height: 270px;
+         position:relative;
+         z-index:2;
+         left: 150px;
+         top: -450px;"
+        />
+
+        <img
+          src="images/graphic/monster.png"
+          style = "width: 200px;
+          height: 200px;
+          position:relative;
+          z-index:2;
+          left: -600px;
+          top: 60px;"
+         />
+
+         <img
+           src="images/graphic/tvhead.png"
+           style = "width: 400px;
+           height: 400px;
+           position:relative;
+           z-index:2;
+           left: 670px;
+           top: 300px;"
+          />
+
           <section class="box">
+
             <div class="page-wrapper">
               <section class="character1">
+
                 <a href="mrsmittens-profile.html"
                   ><img
                     id="mrs-mittens"
@@ -27,6 +137,10 @@
                     width="350"
                     height="350"
                 /></a>
+                <br>
+                <br>
+
+                <h1>Mrs.Mittens</h1>
 
                 <div class="character2">
                   <a href="deardevotion-profile.html"
@@ -39,6 +153,9 @@
                       width="350"
                       height="350"
                   /></a>
+
+                  <h1>Dear of Devotion</h1>
+
                 </div>
 
                 <div class="character3">
@@ -54,6 +171,7 @@
                         height="350"
                     /></a>
                   </center>
+                  <center><h1>Midnight Meryl</h1></center>
                 </div>
 
                 <div class="character4">
@@ -69,6 +187,7 @@
                         height="350"
                     /></a>
                   </center>
+                  <h1>Hell Hound</h1>
                 </div>
 
                 <div class="character5">
@@ -84,6 +203,8 @@
                         height="350"
                     /></a>
                   </center>
+
+                  <h1>Murder Mascot</h1></center>
 
                   <!-- ------------------------  links  ------------------------------------- -->
 
