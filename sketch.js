@@ -5,7 +5,7 @@ function preload() {
   img = loadImage('images/graphic/star1.png');
 }
 
-function setup(){
+function setup() {
   var canvas = createCanvas(1000, 1000);
   canvas.parent('sketch-holder');
 }
