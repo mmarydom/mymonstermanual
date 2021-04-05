@@ -2,7 +2,7 @@ let img;
 var x = 0;
 
 function preload() {
-  img = loadImage('images/star 1.png');
+  img = loadImage('images/star1.png');
 }
 function setup() {
 
