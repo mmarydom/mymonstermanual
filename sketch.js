@@ -1,4 +1,3 @@
-let img;
 var x = 0;
 
 function preload() {
