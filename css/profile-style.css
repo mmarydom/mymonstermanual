@@ -1,14 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Bungee+Inline&family=Eater&family=Frijole&family=Nosifer&display=swap');
 html {
-  background: #ff0000;
   padding: 5%;
+  background-image: radial-gradient(#ff0000 6%, transparent 10%),
+        radial-gradient(#04006f 6%, transparent 10%);
+  background-size:40px 40px;
+  background-color:	white;
+  background-position: 0 0, 60px 60px;
+  animation-name: backgroundmovement;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+ }
+
+      /*creates movement of the background*/
+  @keyframes backgroundmovement {
+     0% {
+   background-position: 0px 0px, 60px 60px;
+        }
+    100% {
+   background-position: 60px 60px, 120px 120px;
+  }
+   }
+}
+
+.container {
+  margins: auto;
+  padding: auto;
 }
 body {
-  background: #04006f;
+  background: #00ffec;
 }
 div.page-wrapper {
   z-index: 2;
 }
 
+h1 {
+font-family: 'Nosifer', cursive;
+  color: red;
+    font-size: 50px;
+   line-height: 50px;
+}
+
+p{
+  font-family: 'Barriecito', cursive;
+  font-size: 20px;
+  color: #04006f;
+    letter-spacing: 3px;
+}
 /*Title information*/
 section.intro {
   padding: 5%;
@@ -20,7 +59,7 @@ section.intro div.quote {
 
 /*image gallery*/
 section.intro div.gallery {
-  background: #49ff00;
+  background: rgba(255,255,0);
   color: #333;
   margin-left: -30%;
   padding: 5% 5% 5% 30%;
@@ -32,7 +71,7 @@ div.main {
 }
 
 aside.sidebar {
-  background: rgba(255, 255, 0);
+  background: rgba(255,121,162);
   padding: 5%;
   position: absolute;
   right: 0;
@@ -41,7 +80,7 @@ aside.sidebar {
 }
 
 footer {
-  background: 	#00ffec;
+  background: 	#49ff00;
   clear: both;
   color: #fff;
   padding: 1em 5%;
