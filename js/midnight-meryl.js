@@ -45,10 +45,7 @@ function init() {
     {src: "kid-drawing4.png", id: "image1"}
   ];
 
-  preload = new createjs.LoadQueue(true, "test/");
-
-  // Use this instead to use tag loading
-  //preload = new createjs.LoadQueue(false);
+  preload = new createjs.LoadQueue(false);
 
   preload.on("progress", handleProgress);
   preload.on("complete", handleComplete);
